@@ -1,0 +1,33 @@
+name: community_app
+description: The community app of Flutter Explained
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+  flutter: 3.7.1
+
+dependencies:
+  bloc: ^8.1.1
+  firebase_auth: ^4.2.8
+  firebase_core: ^2.6.1
+  firebase_dynamic_links: ^5.0.14
+  firebase_ui_auth: ^1.1.13
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.2
+  flutter_localizations:
+    sdk: flutter
+  go_router: ^6.0.8
+  intl: ^0.17.0
+
+dev_dependencies:
+  bloc_test: ^9.1.1
+  flutter_test:
+    sdk: flutter
+  mocktail: ^0.3.0
+  very_good_analysis: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
