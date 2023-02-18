@@ -63,7 +63,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '416647339946',
     projectId: 'flutter-explained-community',
     storageBucket: 'flutter-explained-community.appspot.com',
-    iosClientId: '416647339946-rrjtr8rgl3r5fgtdam9ms3slu91snflm.apps.googleusercontent.com',
+    iosClientId:
+        '416647339946-rrjtr8rgl3r5fgtdam9ms3slu91snflm.apps.googleusercontent.com',
     iosBundleId: 'dev.flutterexplained.community-app',
   );
 }
