@@ -8,7 +8,7 @@ import 'package:flutter/foundation.dart'
 ///
 /// Example:
 /// ```dart
-/// import 'firebase_options.dart';
+/// import 'firebase_options_dev.dart';
 /// // ...
 /// await Firebase.initializeApp(
 ///   options: DefaultFirebaseOptions.currentPlatform,
@@ -42,30 +42,28 @@ class DefaultFirebaseOptions {
           'DefaultFirebaseOptions have not been configured for linux - '
           'you can reconfigure this by running the FlutterFire CLI again.',
         );
-      case TargetPlatform.fuchsia:
+      default:
         throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for fuchsia - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
+          'DefaultFirebaseOptions are not supported for this platform.',
         );
     }
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBarisN1l9qgQtmg1hzcEC3FRGw_PrUt8A',
-    appId: '1:416647339946:android:3b8cbe30444a07bbc9d5d3',
-    messagingSenderId: '416647339946',
-    projectId: 'flutter-explained-community',
-    storageBucket: 'flutter-explained-community.appspot.com',
+    apiKey: 'AIzaSyAvJzjCY2WLdII87qwpQQvUqjw0RcRisGM',
+    appId: '1:904342392027:android:6e23ad729fa926912ad0fe',
+    messagingSenderId: '904342392027',
+    projectId: 'fe-community-dev',
+    storageBucket: 'fe-community-dev.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBuKomYEqhbFRtOZWQcNOMrDyUd_XFAAvU',
-    appId: '1:416647339946:ios:51dbead1e89cf4edc9d5d3',
-    messagingSenderId: '416647339946',
-    projectId: 'flutter-explained-community',
-    storageBucket: 'flutter-explained-community.appspot.com',
-    iosClientId:
-        '416647339946-58vodha5kfr0oh3v6343dd7pf9rhjfc4.apps.googleusercontent.com',
-    iosBundleId: 'dev.explained.comm',
+    apiKey: 'AIzaSyAcA5u44DhgvVnILATaOM_7TAp-vXatL2U',
+    appId: '1:904342392027:ios:4a2e611a4843f6df2ad0fe',
+    messagingSenderId: '904342392027',
+    projectId: 'fe-community-dev',
+    storageBucket: 'fe-community-dev.appspot.com',
+    iosClientId: '904342392027-q5sb99te7uc07m0td6lg8f9kfo4cbohg.apps.googleusercontent.com',
+    iosBundleId: 'dev.flutterexplained.community-app.dev',
   );
 }

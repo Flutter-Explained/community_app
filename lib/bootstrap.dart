@@ -6,6 +6,8 @@ import 'package:community_app/firebase_options.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/widgets.dart';
 
+enum Environment { dev, staging, prod }
+
 class AppBlocObserver extends BlocObserver {
   const AppBlocObserver();
 
@@ -22,14 +24,20 @@ class AppBlocObserver extends BlocObserver {
   }
 }
 
-Future<void> bootstrap(FutureOr<Widget> Function() builder) async {
+Future<void> bootstrap(
+    FutureOr<Widget> Function() builder, Environment environment) async {
   WidgetsFlutterBinding.ensureInitialized();
+
   FlutterError.onError = (details) {
     log(details.exceptionAsString(), stackTrace: details.stack);
   };
 
   Bloc.observer = const AppBlocObserver();
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+
+  await Firebase.initializeApp(
+    name: '$environment',
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
 
   await runZonedGuarded(
     () async => runApp(await builder()),
