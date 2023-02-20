@@ -25,7 +25,9 @@ class AppBlocObserver extends BlocObserver {
 }
 
 Future<void> bootstrap(
-    FutureOr<Widget> Function() builder, Environment environment) async {
+  FutureOr<Widget> Function() builder,
+  Environment environment,
+) async {
   WidgetsFlutterBinding.ensureInitialized();
 
   FlutterError.onError = (details) {
