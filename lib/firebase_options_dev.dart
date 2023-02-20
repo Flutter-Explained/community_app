@@ -45,7 +45,7 @@ class DefaultFirebaseOptions {
       case TargetPlatform.fuchsia:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for fuchsia - '
-              'you can reconfigure this by running the FlutterFire CLI again.',
+          'you can reconfigure this by running the FlutterFire CLI again.',
         );
         break;
     }
@@ -65,7 +65,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '904342392027',
     projectId: 'fe-community-dev',
     storageBucket: 'fe-community-dev.appspot.com',
-    iosClientId: '904342392027-q5sb99te7uc07m0td6lg8f9kfo4cbohg.apps.googleusercontent.com',
+    iosClientId:
+        '904342392027-q5sb99te7uc07m0td6lg8f9kfo4cbohg.apps.googleusercontent.com',
     iosBundleId: 'dev.flutterexplained.community-app.dev',
   );
 }
