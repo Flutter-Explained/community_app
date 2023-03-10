@@ -9,7 +9,7 @@ environment:
 
 dependencies:
   bloc: ^8.1.1
-  firebase_auth: ^4.2.8
+  firebase_auth: ^4.2.10
   firebase_core: ^2.7.1
   firebase_dynamic_links: ^5.0.16
   firebase_ui_auth: ^1.1.16
