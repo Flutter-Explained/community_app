@@ -57,7 +57,7 @@ final GoRouter routerConfig = GoRouter(
         actions: [
           AuthStateChangeAction((context, state) {
             context.go('/profile');
-          })
+          }),
         ],
       ),
     ),
