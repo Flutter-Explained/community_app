@@ -2,6 +2,7 @@ import 'package:community_app/counter/counter.dart';
 import 'package:community_app/l10n/l10n.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:go_router/go_router.dart';
 
 class CounterPage extends StatelessWidget {
   const CounterPage({super.key});
@@ -29,7 +30,7 @@ class CounterView extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           FloatingActionButton(
-            onPressed: () => context.read<CounterCubit>().increment(),
+            onPressed: () => context.go('/profile'),
             child: const Icon(Icons.add),
           ),
           const SizedBox(height: 8),

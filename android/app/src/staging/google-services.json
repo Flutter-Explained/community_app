@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "904342392027",
+    "project_id": "fe-community-dev",
+    "storage_bucket": "fe-community-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904342392027:android:6e23ad729fa926912ad0fe",
+        "android_client_info": {
+          "package_name": "dev.flutterexplained.community_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904342392027-v6bpbj6kq2igl1nh1atihvtnrg4be8gv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvJzjCY2WLdII87qwpQQvUqjw0RcRisGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904342392027-v6bpbj6kq2igl1nh1atihvtnrg4be8gv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "904342392027-q5sb99te7uc07m0td6lg8f9kfo4cbohg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "dev.flutterexplained.community-app.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904342392027:android:b2991e3e0348c5482ad0fe",
+        "android_client_info": {
+          "package_name": "dev.flutterexplained.community_app.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904342392027-v6bpbj6kq2igl1nh1atihvtnrg4be8gv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvJzjCY2WLdII87qwpQQvUqjw0RcRisGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904342392027-v6bpbj6kq2igl1nh1atihvtnrg4be8gv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "904342392027-q5sb99te7uc07m0td6lg8f9kfo4cbohg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "dev.flutterexplained.community-app.dev"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
