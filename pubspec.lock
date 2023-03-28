@@ -7,7 +7,7 @@ packages:
       name: _fe_analyzer_shared
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "55.0.0"
+    version: "57.0.0"
   _flutterfire_internals:
     dependency: transitive
     description:
@@ -21,7 +21,7 @@ packages:
       name: analyzer
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "5.7.1"
+    version: "5.9.0"
   args:
     dependency: transitive
     description:
@@ -265,7 +265,7 @@ packages:
       name: go_router
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "6.2.0"
+    version: "6.5.0"
   http:
     dependency: transitive
     description:
