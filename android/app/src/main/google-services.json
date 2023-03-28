@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "416647339946",
+    "project_id": "flutter-explained-community",
+    "storage_bucket": "flutter-explained-community.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416647339946:android:3b8cbe30444a07bbc9d5d3",
+        "android_client_info": {
+          "package_name": "dev.flutterexplained.community_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416647339946-pcveajdsiu5vvsvhuil30jp316kvba35.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBarisN1l9qgQtmg1hzcEC3FRGw_PrUt8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416647339946-pcveajdsiu5vvsvhuil30jp316kvba35.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "416647339946-58vodha5kfr0oh3v6343dd7pf9rhjfc4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "dev.explained.comm"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

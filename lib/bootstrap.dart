@@ -3,6 +3,7 @@ import 'dart:developer';
 
 import 'package:bloc/bloc.dart';
 import 'package:community_app/firebase_options.dart';
+import 'package:community_app/firebase_options_dev.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/widgets.dart';
 
@@ -37,8 +38,10 @@ Future<void> bootstrap(
   Bloc.observer = const AppBlocObserver();
 
   await Firebase.initializeApp(
-    name: '$environment',
-    options: DefaultFirebaseOptions.currentPlatform,
+    name: environment.name,
+    options: environment == Environment.dev
+        ? DevDefaultFirebaseOptions.currentPlatform
+        : DefaultFirebaseOptions.currentPlatform,
   );
 
   await runZonedGuarded(
